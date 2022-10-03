@@ -1,0 +1,583 @@
+-- Made by Vruhz
+local CrazyGUI = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Madeby = Instance.new("TextLabel")
+local Pipe = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Cheetos = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local Katana = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local Fists = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local StopAxe = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local Minigun = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local Flamethrower = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local Pistols = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local RocketLauncher = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local Mp5a3 = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local Sucker = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_12 = Instance.new("UICorner")
+local Candycane = Instance.new("TextButton")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local Candy = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_14 = Instance.new("UICorner")
+local Turkey = Instance.new("TextButton")
+local UIGradient_14 = Instance.new("UIGradient")
+local UICorner_15 = Instance.new("UICorner")
+local Nightstick = Instance.new("TextButton")
+local UIGradient_15 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local Open = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+
+--Properties:
+
+CrazyGUI.Name = "Crazy GUI"
+CrazyGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+CrazyGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = CrazyGUI
+Frame.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.290773541, 0, 0.288000017, 0)
+Frame.Size = UDim2.new(0, 465, 0, 289)
+Frame.Visible = false
+Frame.Draggable = true
+Frame.Selectable = true
+Frame.Active = true
+
+Madeby.Name = "Made by"
+Madeby.Parent = Frame
+Madeby.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Madeby.BackgroundTransparency = 1.000
+Madeby.Size = UDim2.new(0, 434, 0, 50)
+Madeby.Font = Enum.Font.GothamBold
+Madeby.Text = "Crazy Weapons | Made by Vruhz"
+Madeby.TextColor3 = Color3.fromRGB(0, 0, 0)
+Madeby.TextSize = 25.000
+Madeby.TextWrapped = true
+Madeby.Draggable = true
+
+Pipe.Name = "Pipe"
+Pipe.Parent = Frame
+Pipe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pipe.Position = UDim2.new(0.0535714179, 0, 0.188679248, 0)
+Pipe.Size = UDim2.new(0, 109, 0, 35)
+Pipe.Font = Enum.Font.FredokaOne
+Pipe.Text = "Big Pipe"
+Pipe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pipe.TextScaled = true
+Pipe.TextSize = 14.000
+Pipe.TextWrapped = true
+Pipe.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "pipe",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient.Parent = Pipe
+
+UICorner.CornerRadius = UDim.new(0.200000003, 2)
+UICorner.Parent = Pipe
+
+UICorner_2.CornerRadius = UDim.new(0.100000001, 2)
+UICorner_2.Parent = Frame
+
+Cheetos.Name = "Cheetos"
+Cheetos.Parent = Frame
+Cheetos.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cheetos.Position = UDim2.new(0.0535714179, 0, 0.346543044, 0)
+Cheetos.Size = UDim2.new(0, 109, 0, 35)
+Cheetos.Font = Enum.Font.FredokaOne
+Cheetos.Text = "Cheetobag"
+Cheetos.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cheetos.TextScaled = true
+Cheetos.TextSize = 14.000
+Cheetos.TextWrapped = true
+Cheetos.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "cheetos",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_2.Parent = Cheetos
+
+UICorner_3.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_3.Parent = Cheetos
+
+Katana.Name = "Katana"
+Katana.Parent = Frame
+Katana.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Katana.Position = UDim2.new(0.0535714179, 0, 0.498113215, 0)
+Katana.Size = UDim2.new(0, 109, 0, 35)
+Katana.Font = Enum.Font.FredokaOne
+Katana.Text = "Samurai"
+Katana.TextColor3 = Color3.fromRGB(0, 0, 0)
+Katana.TextScaled = true
+Katana.TextSize = 14.000
+Katana.TextWrapped = true
+Katana.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "katana",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_3.Parent = Katana
+
+UICorner_4.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_4.Parent = Katana
+
+Fists.Name = "Fists"
+Fists.Parent = Frame
+Fists.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fists.Position = UDim2.new(0.0535714179, 0, 0.656603754, 0)
+Fists.Size = UDim2.new(0, 109, 0, 35)
+Fists.Font = Enum.Font.FredokaOne
+Fists.Text = "Kung-fu"
+Fists.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fists.TextScaled = true
+Fists.TextSize = 14.000
+Fists.TextWrapped = true
+Fists.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "fists",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_4.Parent = Fists
+
+UICorner_5.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_5.Parent = Fists
+
+StopAxe.Name = "StopAxe"
+StopAxe.Parent = Frame
+StopAxe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StopAxe.Position = UDim2.new(0.0535714179, 0, 0.826415062, 0)
+StopAxe.Size = UDim2.new(0, 109, 0, 35)
+StopAxe.Font = Enum.Font.FredokaOne
+StopAxe.Text = "MegaAxe"
+StopAxe.TextColor3 = Color3.fromRGB(0, 0, 0)
+StopAxe.TextScaled = true
+StopAxe.TextSize = 14.000
+StopAxe.TextWrapped = true
+StopAxe.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "stopaxe",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_5.Parent = StopAxe
+
+UICorner_6.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_6.Parent = StopAxe
+
+Minigun.Name = "Minigun"
+Minigun.Parent = Frame
+Minigun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minigun.Position = UDim2.new(0.324539185, 0, 0.188679248, 0)
+Minigun.Size = UDim2.new(0, 109, 0, 35)
+Minigun.Font = Enum.Font.FredokaOne
+Minigun.Text = "Minigun"
+Minigun.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minigun.TextScaled = true
+Minigun.TextSize = 14.000
+Minigun.TextWrapped = true
+Minigun.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "minigun",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_6.Parent = Minigun
+
+UICorner_7.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_7.Parent = Minigun
+
+Flamethrower.Name = "Flamethrower"
+Flamethrower.Parent = Frame
+Flamethrower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Flamethrower.Position = UDim2.new(0.324539185, 0, 0.344388604, 0)
+Flamethrower.Size = UDim2.new(0, 109, 0, 35)
+Flamethrower.Font = Enum.Font.FredokaOne
+Flamethrower.Text = "Flamethrower"
+Flamethrower.TextColor3 = Color3.fromRGB(0, 0, 0)
+Flamethrower.TextScaled = true
+Flamethrower.TextSize = 14.000
+Flamethrower.TextWrapped = true
+Flamethrower.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "flamethrower",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_7.Parent = Flamethrower
+
+UICorner_8.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_8.Parent = Flamethrower
+
+Pistols.Name = "Pistols"
+Pistols.Parent = Frame
+Pistols.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pistols.Position = UDim2.new(0.324539185, 0, 0.496637732, 0)
+Pistols.Size = UDim2.new(0, 109, 0, 35)
+Pistols.Font = Enum.Font.FredokaOne
+Pistols.Text = "Dual Pistols"
+Pistols.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pistols.TextScaled = true
+Pistols.TextSize = 14.000
+Pistols.TextWrapped = true
+Pistols.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "pistols",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_8.Parent = Pistols
+
+UICorner_9.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_9.Parent = Pistols
+
+RocketLauncher.Name = "Rocket Launcher"
+RocketLauncher.Parent = Frame
+RocketLauncher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RocketLauncher.Position = UDim2.new(0.324539185, 0, 0.655807257, 0)
+RocketLauncher.Size = UDim2.new(0, 109, 0, 35)
+RocketLauncher.Font = Enum.Font.FredokaOne
+RocketLauncher.Text = "Bazooka"
+RocketLauncher.TextColor3 = Color3.fromRGB(0, 0, 0)
+RocketLauncher.TextScaled = true
+RocketLauncher.TextSize = 14.000
+RocketLauncher.TextWrapped = true
+RocketLauncher.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "Rocket Launcher",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_9.Parent = RocketLauncher
+
+UICorner_10.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_10.Parent = RocketLauncher
+
+Mp5a3.Name = "Mp5a3"
+Mp5a3.Parent = Frame
+Mp5a3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mp5a3.Position = UDim2.new(0.324539185, 0, 0.825357437, 0)
+Mp5a3.Size = UDim2.new(0, 109, 0, 35)
+Mp5a3.Font = Enum.Font.FredokaOne
+Mp5a3.Text = "Mp5"
+Mp5a3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mp5a3.TextScaled = true
+Mp5a3.TextSize = 14.000
+Mp5a3.TextWrapped = true
+Mp5a3.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "mp5a3",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_10.Parent = Mp5a3
+
+UICorner_11.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_11.Parent = Mp5a3
+
+Sucker.Name = "Sucker"
+Sucker.Parent = Frame
+Sucker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sucker.Position = UDim2.new(0.601958513, 0, 0.188679248, 0)
+Sucker.Size = UDim2.new(0, 109, 0, 35)
+Sucker.Font = Enum.Font.FredokaOne
+Sucker.Text = "Big lollipop"
+Sucker.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sucker.TextScaled = true
+Sucker.TextSize = 14.000
+Sucker.TextWrapped = true
+Sucker.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "sucker",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_11.Parent = Sucker
+
+UICorner_12.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_12.Parent = Sucker
+
+Candycane.Name = "Candycane"
+Candycane.Parent = Frame
+Candycane.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Candycane.Position = UDim2.new(0.601958513, 0, 0.344388604, 0)
+Candycane.Size = UDim2.new(0, 109, 0, 35)
+Candycane.Font = Enum.Font.FredokaOne
+Candycane.Text = "Candy Cane"
+Candycane.TextColor3 = Color3.fromRGB(0, 0, 0)
+Candycane.TextScaled = true
+Candycane.TextSize = 14.000
+Candycane.TextWrapped = true
+Candycane.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "candycane",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_12.Parent = Candycane
+
+UICorner_13.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_13.Parent = Candycane
+
+Candy.Name = "Candy"
+Candy.Parent = Frame
+Candy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Candy.Position = UDim2.new(0.601958513, 0, 0.496637732, 0)
+Candy.Size = UDim2.new(0, 109, 0, 35)
+Candy.Font = Enum.Font.FredokaOne
+Candy.Text = "Halloween Candy"
+Candy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Candy.TextScaled = true
+Candy.TextSize = 14.000
+Candy.TextWrapped = true
+Candy.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "candy",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_13.Parent = Candy
+
+UICorner_14.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_14.Parent = Candy
+
+Turkey.Name = "Turkey"
+Turkey.Parent = Frame
+Turkey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Turkey.Position = UDim2.new(0.601958513, 0, 0.655807257, 0)
+Turkey.Size = UDim2.new(0, 109, 0, 35)
+Turkey.Font = Enum.Font.FredokaOne
+Turkey.Text = "Turkey"
+Turkey.TextColor3 = Color3.fromRGB(0, 0, 0)
+Turkey.TextScaled = true
+Turkey.TextSize = 14.000
+Turkey.TextWrapped = true
+Turkey.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "turkey",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_14.Parent = Turkey
+
+UICorner_15.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_15.Parent = Turkey
+
+Nightstick.Name = "Nightstick"
+Nightstick.Parent = Frame
+Nightstick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nightstick.Position = UDim2.new(0.601958513, 0, 0.825357437, 0)
+Nightstick.Size = UDim2.new(0, 109, 0, 35)
+Nightstick.Font = Enum.Font.FredokaOne
+Nightstick.Text = "FBI"
+Nightstick.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nightstick.TextScaled = true
+Nightstick.TextSize = 14.000
+Nightstick.TextWrapped = true
+Nightstick.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "changeClass",
+		[2] = "nightstick",
+		[3] = "none"
+	}
+
+	game:GetService("ReplicatedStorage").events.guiEvent:FireServer(unpack(args))
+end)
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(170, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
+UIGradient_15.Parent = Nightstick
+
+UICorner_16.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_16.Parent = Nightstick
+
+Open.Name = "Open"
+Open.Parent = CrazyGUI
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0, 0, 0.540799975, 0)
+Open.Size = UDim2.new(0, 78, 0, 34)
+Open.Font = Enum.Font.FredokaOne
+Open.Text = "Open GUI"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+Open.Active = true
+Open.Visible = true
+
+
+UICorner_17.CornerRadius = UDim.new(0.200000003, 2)
+UICorner_17.Parent = Open
+
+-- Scripts:
+
+local function LHKJ_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local Button = script.Parent -- location of TextButton.
+	Frame = script.Parent.Parent.Frame --Frame that you want to appear.
+	
+	function OnClick()
+		if Frame.Visible == false then
+			Frame.Visible = true
+		elseif Frame.Visible == true then
+			Frame.Visible = false
+		end
+	end
+	
+	Button.MouseButton1Click:connect(OnClick)
+end
+coroutine.wrap(LHKJ_script)()
+local function CWBBPIO_script() -- Open.RainbowText 
+	local script = Instance.new('Script', Open)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	while true do
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,k/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255,k/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(k/255,0/255,255/255)
+	k = k + add
+	wait()
+	end
+	k = 1
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+	k = k + add
+	wait()
+	end
+	while k <= 255 do
+	text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+	k = k + add
+	wait()
+	end
+	end
+end
+coroutine.wrap(CWBBPIO_script)()
